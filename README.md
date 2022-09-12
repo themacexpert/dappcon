@@ -1,7 +1,24 @@
 # Building Cross Chain DApps with Moonbeam @DappCon 2022
 ![Banner Image](https://i.ibb.co/DbBXnYJ/Workshop-20220912-Dapp-Con-Kevin-Neilson-External.png)
 
-This guide contains all the links you'll need for the Remote Execution with XCM Workshop - so you only have to scan 1 QR code at the beginning. We won't assume any pre-existing account setup, so we will start from a blank slate. 
+This guide contains all the links you'll need for the workshop. We won't assume any pre-existing account setup, so we will start from a blank slate. 
+
+## Send a message to another chain with Axelar
+In this demo, we will use Axelar's General message passing to call a contract on another chain. We will be mostly following the steps of [this blog post guide](https://moonbeam.network/blog/connected-contracts-axelar/), with the exception of the gas amounts, which have changed since the publish date. 
+
+The required gas amounts in WEI to send along with the message from Moonbase Alpha are the following: 
+- Polygon Mumbai: 339003286300000000
+- Avalanche Fuji: 970363238301000000
+- Fantom Testnet: 553898649000000000
+- Ethereum Ropst: 16000000000000000000
+
+### Initial Setup
+1. [Install MetaMask](https://metamask.io/)
+2. [Add Moonbase Alpha Network to MetaMask](https://docs.moonbeam.network/)
+3. Import ALICE Account into your MetaMask. This is a Shared Public Test Account that's already funded with plenty of testnet funds. Private Key: 0x28194e8ddb4a2f2b110ee69eaba1ee1f35e88da2222b5a7d6e3afa14cf7a3347
+ 
+
+## Remote Execution with XCM
 
 ### Initial Setup
 
