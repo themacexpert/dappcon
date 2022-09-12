@@ -43,7 +43,7 @@ The required gas amounts in WEI to send along with the message from Moonbase Alp
 ### Transfer 
 - [Fill out the transfer information on the relay chain to get the call bytes but don't submit here](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Ffrag-moonbase-relay-rpc-ws.g.moonbase.moonbeam.network#/extrinsics)
 - [Initiate the remote transfer transaction on the Moonbase Alpha Parachain](https://polkadot.js.org/apps/?rpc=wss%3A%2F%2Fwss.api.moonbase.moonbeam.network#/extrinsics)
--Parameters you'll need include:
+- Parameters you'll need include:
 - Index: 42
 - Foreign Asset ID: 42259045809535163221576417993425387648
 - Weight: 1000000000
