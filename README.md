@@ -1,5 +1,3 @@
-# dappcon
-
 # Building Cross Chain DApps with Moonbeam @DappCon 2022
 ![Banner Image](https://i.ibb.co/DbBXnYJ/Workshop-20220912-Dapp-Con-Kevin-Neilson-External.png)
 
